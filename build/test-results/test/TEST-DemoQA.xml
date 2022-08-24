@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoQA" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-24T20:10:32" hostname="DESKTOP-7PSJJ0Q" time="48.849">
+  <properties/>
+  <testcase name="Scenario: Interact with the website" classname="DemoQA" time="48.849"/>
+  <system-out><![CDATA[?[92m|-- Example 1: {Slider=anni, Number=js}?[0m
+?[92m|---- Given that 'Anni' open the browser and enter the page 'https://demoqa.com/'?[0m
+?[92m|------ Anni opens the https://demoqa.com/?[0m
+Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+?[92m|---- When she select the elemnt option and the category slider she will be able to click and slide the mouse
+| Slider | anni |?[0m
+?[92m|------ Anni slider?[0m
+?[92m|-------- Anni clicks on botón opción de widgets?[0m
+Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+?[92m|---- Then she should see on the screen the number where the mouse slides
+| Slider | anni |
+| Number | js |?[0m
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/SENA/IdeaProjects/pSlider/src/test/resources/features/pslider.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/SENA/IdeaProjects/pSlider/src/test/resources/features/pslider.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Scenario: Interact with the website(demoqa;scenario:-interact-with-the-website)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\SENA\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: "--disable-notifications, -..., goog:chromeOptions: {args: [--", --disable-notifications, --disable-web-security, --dissable-plugins-discovery, --disable-popup-blocking, --disable-download-notifica..., --disable-translate, --disable-extensions, --enable-automation, --profile-directory=Default, --disk-cache-dir=null, --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --incognito"], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 43135
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago. 24, 2022 3:10:37 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Scenario
+----------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
